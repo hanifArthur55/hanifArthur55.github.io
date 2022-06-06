@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg bg-info">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">JSport</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="test.html">Schedule</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <div class="container">
+      <div class="row">
+        <div class="d-flex justify-content-center mt-5 mb-2">
+          <img src="images/lapangan_ futsal/Six_soccer.jpg" style="width: 500px;" alt="">
+        </div>
+          <h3 style="text-align: center;">Six soccer</h3>
+          <p style="text-align: center;">Jam operasiona : 07:00 - 08:50</p>
+          <p style="text-align: center;">Harga : 75/jam (5000 biayaya transaksi)</p>
+          <p style="text-align: center;">Fasilitas : Toilet,kantin,masjid</p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-warning" onclick="openWin()">Lihat lokasi</button>
+        <script>
+          var myWindow;
+          function openWin() {
+            myWindow = window.open("https://www.google.co.id/maps/place/SixSoccer/@-6.2801635,106.7776964,19z/data=!4m5!3m4!1s0x2e69f189feee7885:0x3bdd0ef92eddb841!8m2!3d-6.2802545!4d106.7781768?hl=id", "_blank", "width=500, height=500");
+          }
+        </script>
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">User</th>
+            <th scope="col">Tanggal</th>
+            <th scope="col">Mulai</th>
+            <th scope="col">Selesai</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Alex</th>
+            <td>6/6/2022</td>
+            <td>07:00</td>
+            <td>08:00</td>
+          </tr>
+          <tr>
+            <th scope="row">Andre</th>
+            <td>6/6/2022</td>
+            <td>13:00</td>
+            <td>14:00</td>
+          </tr>
+          <tr>
+            <th scope="row">Zooharmen</th>
+            <td>6/6/2022</td>
+            <td>14:00</td>
+            <td>15:00</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="d-flex justify-content-end">
+        <a href="booking.html">
+          <button type="button" class="btn btn-warning">Pilih jadwal</button>
+        </a>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

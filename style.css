@@ -1,0 +1,23 @@
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.collapse{
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+.navbar-brand{
+    margin-left: 100px;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+}
+
+.img-fluid{
+    margin-top: 2px;
+}
